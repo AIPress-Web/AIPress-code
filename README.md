@@ -8,7 +8,7 @@ This repository is the implementation of our paper [AI-Press: A Multi-Agent News
 - [Dataset](#Dataset)
 - [Getting Started](#Getting-Started)
   - [Installation](#Installation)
-    - [Environment Variables](#Environment Variables)
+    - [Environment Variables](#Environment-Variables)
     - [Configuration](#Configuration)
   - [How to start](#How-to-start)
 - [Citation](#Citation)
