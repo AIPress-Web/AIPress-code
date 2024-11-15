@@ -42,7 +42,7 @@ pip install tavily
 
 ```bash
 git clone https://github.com/AIPress-Web/AIPress-code.git
-cd MetaGPT/AIPress-code/code
+cd MetaGPT/AIPress-code/new_code
 ```
 
 #### Environment Variables
