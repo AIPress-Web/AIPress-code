@@ -8,6 +8,8 @@ This repository is the implementation of our paper [AI-Press: A Multi-Agent News
 - [Dataset](#Dataset)
 - [Getting Started](#Getting-Started)
   - [Installation](#Installation)
+    - [Environment Variables](#Environment Variables)
+    - [Configuration](#Configuration)
   - [How to start](#How-to-start)
 - [Citation](#Citation)
 
@@ -43,7 +45,7 @@ git clone https://github.com/AIPress-Web/AIPress-code.git
 cd AIPress
 ```
 
-### Environment Variables
+#### Environment Variables
 You need to replace your OpenAI API key in the files：
 - news_writing.py
 - user_simulated.py
@@ -51,7 +53,7 @@ You need to replace your OpenAI API key in the files：
 - fact_collection_sl.py
 
 
-### Configuration
+#### Configuration
 
 You can init the config of MetaGPT by running the following command, or manually create `~/.metagpt/config2.yaml` file:
 ```bash
@@ -69,7 +71,10 @@ llm:
   api_key: "YOUR_API_KEY"
 ```
 
-
+### How to Start
+```bash
+streamlit run dashboard.py
+```
 
 ## Citation
 Please consider citing this paper if you find this repository useful:
