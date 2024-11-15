@@ -8,7 +8,7 @@ This repository is the implementation of our paper [AI-Press: A Multi-Agent News
 - [Dataset](#Dataset)
 - [Getting Started](#Getting-Started)
   - [Installation](#Installation)
-    - [Environment Variables](#Environment-Variables)
+    - [LLM Settings](#LLM-Settings)
     - [Configuration](#Configuration)
   - [How to start](#How-to-start)
 - [Citation](#Citation)
@@ -41,12 +41,13 @@ pip install tavily
 ```
 
 ```bash
+cd MetaGPT
 git clone https://github.com/AIPress-Web/AIPress-code.git
-cd MetaGPT/AIPress-code/new_code
+cd AIPress-code/new_code
 ```
 
-#### Environment Variables
-You need to replace your OpenAI API key in the files：
+#### LLM Settings
+You need to replace your OpenAI API key and Base URL in the following files：
 - news_writing.py
 - user_simulated.py
 - new_collection_sl.py
