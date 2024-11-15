@@ -42,7 +42,7 @@ pip install tavily
 
 ```bash
 git clone https://github.com/AIPress-Web/AIPress-code.git
-cd AIPress
+cd AIPress-code/new_code
 ```
 
 #### Environment Variables
