@@ -9,9 +9,9 @@ from openai import OpenAI
 
 
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
-os.environ["OPENAI_API_KEY"] = "sk-aqLKfO2boAhBpp7DA88e3c5aB88e4a48A7B98f9a900d5fE5"
+os.environ["OPENAI_API_KEY"] = "your_api_key_here"
 
-openai_client = OpenAI(base_url="https://api.ai-gaochao.cn/v1")
+openai_client = OpenAI(base_url="your_api_base_here")
 
 def process_fact_file(file_path):
     df = pd.read_csv(file_path)
